@@ -1,0 +1,410 @@
+/* -------font file use -------*/
+@font-face {
+  font-family: "Uber Move";
+  src: url("../asesst/font/UberMove-Regular.eot");
+  src: local("UberMoveRegular"), url("../asesst/font/UberMoveRegular.otf"),
+    url("embedded-opentype"),
+    url("../asesst/font/UberMove-Regular.woff2") format("woff2"),
+    url("../asesst/font/UberMove-Regular.woff") format("woff"),
+    url("../asesst/font/UberMove-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Uber Move";
+  src: url("../asesst/font/UberMove-Light.eot");
+  src: local("UberMoveLight"), url("../asesst/font/UberMoveLight.otf"),
+    url("embedded-opentype"),
+    url("../asesst/font/UberMove-Light.woff2") format("woff2"),
+    url("../asesst/font/UberMove-Light.woff") format("woff"),
+    url("../asesst/font/UberMove-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Uber Move";
+  src: url("../asesst/font/UberMove-Medium.eot");
+  src: local("UberMoveMedium"), url("../asesst/font/UberMoveMedium.otf"),
+    url("embedded-opentype"),
+    url("../asesst/font/UberMove-Medium.woff2") format("woff2"),
+    url("../asesst/font/UberMove-Medium.woff") format("woff"),
+    url("../asesst/font/UberMove-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Uber Move";
+  src: url("../asesst/font/UberMove-Bold.eot");
+  src: local("UberMoveBold"), url("../asesst/font/UberMoveBold.otf"),
+    url("embedded-opentype"),
+    url("../asesst/font/UberMove-Bold.woff2") format("woff2"),
+    url("../asesst/font/UberMove-Bold.woff") format("woff"),
+    url("../asesst/font/UberMove-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+/* end of font file added 
+//////////////////////  */
+
+/* --------body section--------- */
+body {
+  font-family: "Uber Move", sans-serif, Arial, Helvetica;
+  margin: 0;
+}
+
+/* ---------- Glober style---------- */
+.flex-container {
+  display: flex;
+}
+
+/* ----------------header---------- */
+.header-bg {
+  background-image: url(../asesst/image/uber-bg.webp);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+/* --------- header section----------- */
+.header {
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  overflow: hidden;
+  padding: 0 40px;
+  /* position: static; */
+  /* background-color: white; */
+}
+
+/* ------------Hader Left-----
+////////////////
+
+/*------drop down menu----*/
+.menu {
+  height: 21px;
+}
+
+/*----------- logo------------- */
+.img-logo {
+  height: 16px;
+  padding: 0 25px;
+}
+
+/*--------------- Header Right------- */
+.btn {
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  height: 35px;
+  margin-left: 10px;
+  width: 70px;
+}
+
+.login {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.login:hover {
+  background-color: rgb(204, 199, 199);
+  transition-duration: 0.4s;
+}
+
+.signup {
+  background-color: black;
+  color: white;
+}
+
+.signup:hover {
+  background-color: rgb(39, 21, 21);
+  transition-duration: 0.4s;
+}
+/* ---------end of header---------- */
+
+/* ----section 1----------- */
+.section1 {
+  position: relative;
+  top: -450px;
+  padding: 0 40px;
+}
+
+.section1 h1 {
+  font-size: 53px;
+}
+
+.delivery div {
+  margin-right: 5px;
+}
+
+input {
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.location-dot {
+  width: 15px;
+  position: absolute;
+  left: 60px;
+  top: 126px;
+}
+
+.order {
+  padding: 8px 16px 8px 60px;
+  width: 420px;
+  height: 40px;
+}
+
+.order:focus {
+  border-bottom: 2px solid blue;
+}
+
+.deliver-opt img {
+  width: 18px;
+  position: absolute;
+  left: 563px;
+  top: 126px;
+}
+
+#deliver-opt {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  width: 220px;
+  height: 57px;
+  padding: 0 10px 0 48px;
+}
+
+.search-btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  height: 35px;
+  width: 130px;
+  height: 57px;
+  background-color: black;
+  color: white;
+  padding: 0 10px;
+}
+
+.search-btn:hover {
+  background-color: rgb(209, 204, 204);
+  opacity: 10;
+}
+
+p .sign-in {
+  color: black;
+}
+
+/*------- start of section 2--- */
+.section-2 {
+  margin-top: -180px;
+}
+.section2 {
+  margin: 0 10px;
+}
+
+.section2 a {
+  text-decoration: none;
+}
+
+.section2 img {
+  width: 100%;
+}
+.section2 h2 {
+  font-size: 30px;
+  margin: 5px 0;
+  color: black;
+}
+
+.section2 p {
+  font-weight: 500;
+  margin: 10px 0;
+  text-decoration: underline;
+  color: black;
+}
+
+/* ----------section3--- */
+.section3 {
+  margin-top: 120px;
+}
+.cities {
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.cities h1 {
+  font-size: 35px;
+}
+
+.cities p {
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.cities a {
+  color: black;
+}
+
+.map {
+  padding: 0 40px;
+}
+
+.map img {
+  height: 100vh;
+  width: 100%;
+}
+
+/* -------- Cities and Countries----- */
+.cities-state,
+.cities-countries {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.cities-state a,
+.cities-countries a {
+  text-decoration: none;
+  padding: 0 40px;
+  color: black;
+  list-style-type: none;
+}
+
+/* --------footer-------- */
+
+.hr {
+  border-top: 1px solid rgb(243, 243, 243);
+}
+
+.container {
+  padding: 0 80px;
+}
+
+.ft-top {
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 80px;
+}
+
+/* ----footer top left up section---- */
+
+.uber-logo {
+  height: 25px;
+}
+
+.iphone-logo {
+  height: 40px;
+  width: 130px;
+  margin-right: 20px;
+}
+
+.google-logo {
+  height: 40px;
+  width: 130px;
+}
+
+.ft-left-up {
+  padding-bottom: 100px;
+}
+
+/* ----- footer top left down secton */
+.ft-left-down {
+  justify-content: space-between;
+}
+
+/* ------ footer top right---- */
+
+.ft-right {
+  align-items: start;
+}
+
+.ft-right img {
+  width: 30px;
+}
+
+.ft-left-down {
+  padding-top: 100px;
+}
+
+/* ---footer up right section----- */
+.ft-right a li {
+  margin-bottom: 20px;
+  color: black;
+  list-style-type: none;
+}
+.ft-right a {
+  text-decoration: none;
+}
+
+/* -------footer down section-------- */
+.hr2 {
+  border-top: 1px solid rgb(243, 243, 243);
+  width: 99%;
+}
+
+.ft-down {
+  justify-content: space-between;
+  align-items: start;
+  padding-top: 30px;
+}
+
+/* ----footer down left section----- */
+.ft-down-left img {
+  width: 16px;
+  padding: 10px;
+}
+
+/* -----footer down right 1 section---- */
+.ft-down-right a {
+  display: flex;
+}
+
+.ft-down-right a {
+  padding: 20px;
+  color: black;
+  text-decoration: none;
+}
+.ft-down-right a:hover {
+  text-decoration: underline;
+}
+
+/*---- footer down right 2 section----- */
+
+.ft-down-right2 {
+  position: absolute;
+  right: 110px;
+  justify-content: space-between;
+}
+
+.ft-down-right2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.ft-down-right2 a:hover {
+  text-decoration: underline;
+}
+
+.ft-down-right2 p {
+  padding-left: 20px;
+}
