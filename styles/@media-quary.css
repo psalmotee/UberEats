@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px) {
+  body {
+    overflow: hidden;
+  }
+
+  .header-bg {
+    background-image: url(../asesst/image/mobile-bg.webp);
+  }
+
+  .btn-hidden {
+    visibility: hidden;
+  }
+
+  .section1 h1 {
+    bottom: 50px;
+  }
+
+  .order {
+    visibility: hidden;
+  }
+}

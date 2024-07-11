@@ -80,31 +80,63 @@ body {
   height: 70px;
   overflow: hidden;
   padding: 0 40px;
-  /* position: static; */
-  /* background-color: white; */
+  /* position: sticky;
+  background-color: white; */
 }
 
-/* ------------Hader Left-----
-////////////////
+/* ------------Hader Left-----*/
+
+.left-header {
+  align-items: center;
+}
 
 /*------drop down menu----*/
 .menu {
   height: 21px;
+  margin-right: 25px;
 }
 
 /*----------- logo------------- */
 .img-logo {
   height: 16px;
-  padding: 0 25px;
+}
+
+.location-icon {
+  width: 12px;
+  position: relative;
+  left: 45px;
+  top: 3px;
+}
+
+.btn-location {
+  /* width: 200px; */
+  padding: 0 40px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  height: 35px;
+  margin: 0 10px;
+}
+
+.angle-down {
+  width: 12px;
+  position: relative;
+  right: 45px;
+  top: 3px;
+}
+
+.btn-hidden {
+  /* visibility: hidden; */
 }
 
 /*--------------- Header Right------- */
 .btn {
-  align-items: center;
   cursor: pointer;
   border: none;
   border-radius: 20px;
-  text-decoration: none;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
