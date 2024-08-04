@@ -190,6 +190,8 @@
     gap: 15px 50px;
     margin-top: 5px;
     margin-bottom: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
   }
 
   .cities-hidden {

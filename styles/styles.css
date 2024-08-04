@@ -102,6 +102,28 @@ body {
   margin-right: 25px;
 }
 
+/* popover button */
+.popover-btn {
+  background-color: rgba(245, 222, 179, 0);
+  /* background-image: url(/asesst/image/dropdown-bar.svg); */
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+.nav-menu {
+  position: relative;
+  bottom: 489px;
+  right: 840px;
+  width: 500px;
+  border: none;
+  width: 500px;
+  height: 500px;
+}
+
 /*----------- logo------------- */
 .img-logo {
   height: 16px;
