@@ -20,19 +20,47 @@
                   src="./asesst/image/dropdown-bar.svg"
                   alt=""
                   class="menu"
-                  popovertarget="nav-menu"
                 />
               </button>
 
-              <nav popover id="nav-menu" class="nav-menu">
-                <button>Sign up</button>
-                <button>Log in</button>
+              <nav popover="manuel" id="nav-menu" class="nav-menu">
+                <div class="container-nav">
+                  <div class="nav-top">
+                    <button popovertarget="nav-menu" class="close-btn">
+                      <img src="./asesst/icon/xmark-solid.svg" alt="" />
+                    </button>
+                    <button class="nav-btn signup-nav">Sign up</button>
+                    <button class="nav-btn login-nav">Log in</button>
 
-                <ul>
-                  <li>Create a business account</li>
-                  <li>Add your restaurant</li>
-                  <li>Sign up to deliver</li>
-                </ul>
+                    <ul>
+                      <a href=""> <li>Create a business account</li></a>
+                      <a href=""><li>Add your restaurant</li></a>
+                      <a href=""><li>Sign up to deliver</li></a>
+                    </ul>
+                  </div>
+
+                  <div class="nav-container">
+                    <div class="flex-container nav-bm">
+                      <img
+                        src="./asesst/icon/Ubereats-app.svg"
+                        alt=""
+                        class="nav-logo"
+                      />
+                      <p>There's more to love in the Android app.</p>
+                    </div>
+
+                    <div class="nav-logo-bt">
+                      <button class="nav-app-link">
+                        <img
+                          src="./asesst/icon/apple-brands-solid.svg"
+                          alt=""
+                          class="nav-app-logo"
+                        />
+                        <span>iphone</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
               </nav>
 
               <!-- -----logo-------- -->

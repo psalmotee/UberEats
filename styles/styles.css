@@ -99,29 +99,113 @@ body {
 /*------drop down menu----*/
 .menu {
   height: 21px;
-  margin-right: 25px;
 }
 
 /* popover button */
 .popover-btn {
-  background-color: rgba(245, 222, 179, 0);
-  /* background-image: url(/asesst/image/dropdown-bar.svg); */
-  background-repeat: no-repeat;
-  width: 20px;
-  height: 20px;
+  background-color: rgba(228, 169, 60, 0);
   border: none;
   cursor: pointer;
-  margin-right: 25px;
+  margin-right: 15px;
 }
 
 .nav-menu {
-  position: relative;
-  bottom: 489px;
-  right: 840px;
-  width: 500px;
+  margin: 0;
   border: none;
-  width: 500px;
-  height: 500px;
+  width: 300px;
+  height: 590px;
+}
+
+.close-btn {
+  display: block;
+  border: none;
+  width: 30px;
+  background-color: white;
+  margin-left: 250px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background-color: rgb(202, 54, 54);
+}
+
+.nav-btn {
+  font-weight: 500;
+  font-size: 18px;
+  display: block;
+  margin: 10px auto;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  height: 55px;
+  cursor: pointer;
+}
+
+.signup-nav {
+  background-color: black;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+.signup-nav:hover {
+  background-color: rgb(39, 21, 21);
+  transition-duration: 0.4s;
+}
+
+.login-nav:hover {
+  background-color: rgb(204, 199, 199);
+  transition-duration: 0.4s;
+}
+
+.nav-top a {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(41, 33, 33);
+  font-weight: 500;
+}
+
+.nav-top a li {
+  margin: 10px 0;
+}
+
+.nav-container {
+  margin: 0 20px;
+}
+
+.nav-bm {
+  margin-top: 150px;
+}
+
+.nav-logo {
+  width: 55px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.nav-bm p {
+  font-weight: 700;
+}
+
+.nav-logo-bt {
+  margin-top: 20px;
+}
+
+.nav-app-link {
+  height: 35px;
+  width: 95px;
+  font-weight: 500;
+  background-color: #e9e9ed;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.nav-app-logo {
+  width: 12px;
+  margin-right: 10px;
+}
+
+.nav-logo-bt span {
+  font-weight: 700;
 }
 
 /*----------- logo------------- */
@@ -255,25 +339,22 @@ body {
   cursor: pointer;
   border: none;
   border-radius: 10px;
-  text-decoration: none;
   text-align: center;
   font-size: 18px;
   font-weight: 500;
-  height: 35px;
   width: 130px;
   height: 57px;
   background-color: black;
   color: white;
-  padding: 0 10px;
 }
 
 .search-btn:hover {
-  background-color: rgb(209, 204, 204);
-  opacity: 10;
+  background-color: rgb(54, 48, 48);
 }
 
 p .sign-in {
   color: black;
+  transition: 0.3s;
 }
 
 /*------- start of section 2--- */
