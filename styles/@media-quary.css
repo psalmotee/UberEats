@@ -1,22 +1,247 @@
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 567px) {
   body {
-    width: 100%;
-    overflow: hidden;
   }
 
+  /* //// Glober style */
+  .container {
+    padding: 0 10px;
+  }
+
+  /* /// Header */
   .header-bg {
     background-image: url(../asesst/image/mobile-bg.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  }
+  .header {
+    height: 30px;
+  }
+
+  .menu {
+    height: 15px;
+    margin-right: 15px;
+  }
+
+  .img-logo {
+    height: 10px;
   }
 
   .btn-hidden {
-    visibility: hidden;
+    display: none;
+  }
+
+  .login {
+    display: none;
+  }
+
+  .login-sm {
+    border-radius: 70%;
+    width: 25px;
+    height: 25px;
+    border: none;
+    display: block;
+  }
+
+  .login-sm img {
+    height: 10px;
+  }
+
+  .btn {
+    font-size: 10px;
+    height: 25px;
+    width: 50px;
+  }
+
+  .delivery .section1 h1 {
+    /* bottom: 50px; */
+    border: 2px solid green;
+  }
+
+  /* //// section 1 */
+  .section1 {
+    position: relative;
+    top: -600px;
+    left: 45px;
+  }
+  .delivery {
+    display: block;
   }
 
   .section1 h1 {
-    /* bottom: 50px; */
+    font-size: 20px;
+  }
+  .order {
+    height: 35px;
+    width: 187px;
+    font-size: 10px;
+    padding-left: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    font-weight: 100;
   }
 
-  .order {
-    visibility: hidden;
+  .location-dot {
+    height: 12px;
+    top: 53px;
+    left: 20px;
+  }
+
+  .deliver {
+    height: 35px;
+    width: 217px;
+    font-size: 10px;
+    padding-left: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    font-weight: 100;
+    margin: 5px 0;
+  }
+  .deliver-opt img {
+    height: 12px;
+    width: 12px;
+    top: 92px;
+    left: 20px;
+  }
+
+  .search-btn {
+    height: 35px;
+    width: 217px;
+    font-size: 10px;
+    font-weight: 700;
+  }
+
+  .section1 p {
+    font-size: 10px;
+  }
+
+  /* ////// Section 2 */
+  .section-2 {
+    display: block;
+  }
+  .download-app {
+    display: block;
+    align-items: center;
+  }
+  .app img {
+    width: 50px;
+  }
+  .app p {
+    display: inline;
+    margin-left: 10px;
+    font-weight: 500;
+  }
+
+  .app-btn {
+    height: 35px;
+    width: 298px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #e9e9ed;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .app-logo {
+    position: relative;
+    top: 28px;
+    left: 100px;
+    width: 10px;
+  }
+
+  .section2 h2 {
+    font-size: 15px;
+  }
+
+  .section2 p {
+    font-size: 10px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .section2-m {
+    margin: 25px 0;
+  }
+
+  /* //// Section 3 */
+  .section3 {
+    margin-top: 5px;
+  }
+
+  .cities {
+    display: block;
+    height: 30px;
+  }
+
+  .cities h1 {
+    font-size: 15px;
+  }
+
+  .cities a {
+    font-size: 10px;
+    position: relative;
+    top: 440px;
+  }
+
+  .grid-container {
+    gap: 15px 50px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+  }
+
+  .cities-hidden {
+    display: none;
+  }
+
+  /* ///// Section 4 */
+  .countries {
+    display: block;
+  }
+  .countries h1 {
+    font-size: 15px;
+  }
+  .countries a {
+    font-size: 10px;
+    position: relative;
+    top: 605px;
+  }
+  .countries-list {
+    gap: 20px 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+  }
+
+  /* //// Footer */
+  .ft-top {
+    display: block;
+    margin-top: 40px;
+  }
+
+  .ft-logo {
+    padding-bottom: 10px;
+  }
+
+  .uber-logo {
+    height: 15px;
+  }
+
+  .ft-left-down {
+    padding-top: 10px;
+  }
+
+  .iphone-logo,
+  .google-logo {
+    width: 80px;
+    height: 25px;
+  }
+
+  .ft-right {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 5px;
   }
 }

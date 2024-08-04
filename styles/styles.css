@@ -61,6 +61,12 @@ body {
 }
 
 /* ---------- Glober style---------- */
+
+.container {
+  padding: 0 40px;
+  /* border: 1px solid red; */
+}
+
 .flex-container {
   display: flex;
 }
@@ -78,9 +84,8 @@ body {
 .header {
   justify-content: space-between;
   align-items: center;
-  height: 70px;
+  height: 60px;
   overflow: hidden;
-  padding: 0 40px;
   /* position: sticky;
   background-color: white; */
 }
@@ -111,14 +116,13 @@ body {
 
 .btn-location {
   /* width: 200px; */
-  padding: 0 40px;
   cursor: pointer;
   border: none;
   border-radius: 20px;
   text-align: center;
   font-size: 16px;
   font-weight: 700;
-  height: 35px;
+  height: 30px;
   margin: 0 10px;
 }
 
@@ -130,7 +134,7 @@ body {
 }
 
 .btn-hidden {
-  /* visibility: hidden; */
+  display: none;
 }
 
 /*--------------- Header Right------- */
@@ -143,7 +147,11 @@ body {
   font-weight: 500;
   height: 35px;
   margin-left: 10px;
-  width: 70px;
+  width: 68px;
+}
+
+.login-sm {
+  display: none;
 }
 
 .login {
@@ -171,7 +179,6 @@ body {
 .section1 {
   position: relative;
   top: -450px;
-  padding: 0 40px;
 }
 
 .section1 h1 {
@@ -182,24 +189,22 @@ body {
   margin-right: 5px;
 }
 
-input {
-  outline: none;
-  border: none;
-  font-size: 16px;
-  font-weight: 600;
-}
-
 .location-dot {
   width: 15px;
+  height: 25px;
   position: absolute;
   left: 60px;
-  top: 126px;
+  top: 123px;
 }
 
 .order {
   padding: 8px 16px 8px 60px;
   width: 420px;
   height: 40px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .order:focus {
@@ -210,10 +215,10 @@ input {
   width: 18px;
   position: absolute;
   left: 563px;
-  top: 126px;
+  top: 127px;
 }
 
-#deliver-opt {
+.deliver {
   cursor: pointer;
   outline: none;
   border: none;
@@ -250,10 +255,15 @@ p .sign-in {
 }
 
 /*------- start of section 2--- */
+
 .section-2 {
   margin-top: -180px;
 }
-.section2 {
+.download-app {
+  display: none;
+}
+
+.section2-m {
   margin: 0 10px;
 }
 
@@ -280,47 +290,61 @@ p .sign-in {
 /* ----------section3--- */
 .section3 {
   margin-top: 120px;
-}
-.cities {
-  justify-content: space-between;
-  padding: 0 40px;
+  margin-bottom: 50px;
 }
 
-.cities h1 {
+.cities,
+.countries {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cities h1,
+.countries h1 {
   font-size: 35px;
 }
 
-.cities p {
+.cities p,
+.countries p {
   font-weight: 500;
   letter-spacing: 2px;
 }
 
-.cities a {
+.cities a,
+.countries a {
   color: black;
 }
 
-.map {
-  padding: 0 40px;
-}
-
 .map img {
-  height: 100vh;
   width: 100%;
 }
 
 /* -------- Cities and Countries----- */
-.cities-state,
-.cities-countries {
+.grid-cities {
+  margin-top: 24px;
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 25px;
 }
 
-.cities-state a,
-.cities-countries a {
+.section4 {
+  margin-bottom: 70px;
+}
+
+.grid-countries {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  gap: 25px;
+}
+
+.grid-cities a,
+.grid-countries a {
   text-decoration: none;
-  padding: 0 40px;
   color: black;
-  list-style-type: none;
 }
 
 /* --------footer-------- */
@@ -329,17 +353,16 @@ p .sign-in {
   border-top: 1px solid rgb(243, 243, 243);
 }
 
-.container {
-  padding: 0 80px;
-}
-
 .ft-top {
-  justify-content: space-between;
+  justify-content: stretch;
   align-items: start;
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 /* ----footer top left up section---- */
+.ft-left {
+  padding-right: 370px;
+}
 
 .uber-logo {
   height: 25px;
@@ -362,13 +385,23 @@ p .sign-in {
 
 /* ----- footer top left down secton */
 .ft-left-down {
-  justify-content: space-between;
+  display: inline-flex;
 }
 
 /* ------ footer top right---- */
-
-.ft-right {
+.grid {
   align-items: start;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 15px;
+  padding-right: 100px;
+}
+
+.ft-right a {
+  text-decoration: none;
+  color: black;
 }
 
 .ft-right img {
@@ -399,6 +432,7 @@ p .sign-in {
   justify-content: space-between;
   align-items: start;
   padding-top: 30px;
+  margin-top: 50px;
 }
 
 /* ----footer down left section----- */
