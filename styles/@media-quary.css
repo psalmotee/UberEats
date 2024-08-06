@@ -1,7 +1,4 @@
 @media screen and (max-width: 367px) {
-  body {
-  }
-
   /* //// Glober style */
   .container {
     padding: 0 10px;
@@ -267,5 +264,6 @@
 
   .ft-down-right2 {
     display: block;
+    font-size: 13px;
   }
 }
