@@ -191,9 +191,12 @@ body {
 }
 
 .nav-app-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 35px;
   width: 95px;
-  font-weight: 500;
+  font-weight: 700;
   background-color: #e9e9ed;
   border: none;
   border-radius: 15px;
@@ -202,10 +205,6 @@ body {
 .nav-app-logo {
   width: 12px;
   margin-right: 10px;
-}
-
-.nav-logo-bt span {
-  font-weight: 700;
 }
 
 /*----------- logo------------- */
@@ -492,13 +491,13 @@ p .sign-in {
 }
 
 /* ------ footer top right---- */
-.grid {
+.grid-footer {
   align-items: start;
   display: grid;
-  grid-auto-flow: row;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  gap: 15px;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  gap: 5px 120px;
   padding-right: 100px;
 }
 
@@ -545,14 +544,14 @@ p .sign-in {
 }
 
 /* -----footer down right 1 section---- */
-.ft-down-right a {
-  display: flex;
-}
 
 .ft-down-right a {
-  padding: 20px;
+  padding: 10px;
   color: black;
   text-decoration: none;
+}
+.ft-down-right li {
+  list-style: none;
 }
 .ft-down-right a:hover {
   text-decoration: underline;

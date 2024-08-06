@@ -1,4 +1,4 @@
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 367px) {
   body {
   }
 
@@ -136,9 +136,13 @@
   }
 
   .app-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 35px;
     width: 298px;
-    font-weight: 500;
+    font-weight: 700;
+    margin-top: 20px;
     margin-bottom: 30px;
     border: none;
     background-color: #e9e9ed;
@@ -146,10 +150,8 @@
     cursor: pointer;
   }
   .app-logo {
-    position: relative;
-    top: 28px;
-    left: 100px;
-    width: 10px;
+    width: 13px;
+    padding: 0 5px;
   }
 
   .section2 h2 {
@@ -183,7 +185,7 @@
   .cities a {
     font-size: 10px;
     position: relative;
-    top: 440px;
+    top: 550px;
   }
 
   .grid-container {
@@ -208,7 +210,7 @@
   .countries a {
     font-size: 10px;
     position: relative;
-    top: 605px;
+    top: 610px;
   }
   .countries-list {
     gap: 20px 0;
@@ -240,10 +242,30 @@
     height: 25px;
   }
 
+  /* -------- footer right */
   .ft-right {
+    margin-top: 30px;
     grid-auto-flow: row;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    gap: 5px;
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+
+  /* ------footer down */
+  .ft-down {
+    display: block;
+  }
+  .ft-down-right {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: auto;
+  }
+
+  .ft-down-right li {
+    margin: 8px 0;
+    font-size: 13px;
+  }
+
+  .ft-down-right2 {
+    display: block;
   }
 }
