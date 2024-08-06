@@ -263,7 +263,9 @@
   }
 
   .ft-down-right2 {
-    display: block;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: auto;
     font-size: 13px;
   }
 }
